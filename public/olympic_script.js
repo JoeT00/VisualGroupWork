@@ -14,22 +14,21 @@ class View {
       this.textInteraction.text(text);
     }
   
-    onClick() {
-      for (const view of views) {
-        if (view.label == this.label) {
-            view.setTextInteraction(`I was clicked!`);
-        } else {
-            view.setTextInteraction(`I am ${view.label}, ${this.label} was clicked`);
-        }
-      }
-    }
+    // onClick() {
+    //   for (const view of views) {
+    //     if (view.label == this.label) {
+    //         view.setTextInteraction(`I was clicked!`);
+    //     } else {
+    //         view.setTextInteraction(`I am ${view.label}, ${this.label} was clicked`);
+    //     }
+    //   }
+    // }
   }
   
   
-  const view1 = new View("#container1", "A", "red");
-  const view2 = new View("#container2", "B", "green");
-  const view3 = new View("#container3", "C", "blue");
-  const view4 = new View("#container4", "D", "orange");
+  const view1 = new View("#container1", "", "red");
+  const view2 = new View("#container2", "", "green");
+  const view3 = new View("#container3", "", "blue");
   
-  const views = [view1, view2, view3, view4];
+  const views = [view1, view2, view3];
   
