@@ -2,7 +2,16 @@ body {
     background-color: black;
 }
 
-.view1, .view2, .view3, .view4 {
+.view1 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view2, .view3 {
     position: absolute;
     width: 50%;
     height: 50%;
@@ -22,11 +31,6 @@ body {
 }
   
 #container3 {
-    bottom: 0;
-    left: 0;
-}
-  
-#container4 {
     bottom: 0;
     right: 0;
 }
