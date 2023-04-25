@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+.view1, .view2, .view3, .view4 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#container1 {
+    top: 0;
+    left: 0;
+}
+  
+#container2 {
+    top: 0;
+    right: 0;
+}
+  
+#container3 {
+    bottom: 0;
+    left: 0;
+}
+  
+#container4 {
+    bottom: 0;
+    right: 0;
+}
+
+svg {
+    width: 98%;
+    height: 95%;
+}
+
+.interaction {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-anchor: middle;
+}
+  
+#container1 rect {
+    fill: red;
+}
+  
+#container2 rect {
+    fill: blue;
+}
+  
+#container3 rect {
+    fill: green;
+}
+  
+#container4 rect {
+    fill: yellow;
+}
